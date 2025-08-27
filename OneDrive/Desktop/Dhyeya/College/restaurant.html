@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Il Gusto | A Fictional Restaurant</title>
+    </head>
+
+    <style>
+        img#header-img {
+            display: block;
+            width: 100%; 
+            }
+        h1, h2, h3 {
+            font-family: Cambria;
+            color: darkolivegreen;
+        }
+        a {
+            font-family: Georgia;
+            font-size: small;
+        }
+        p {
+            font-family: trebuchet ms;
+            color: rgb(51, 152, 85);
+        }
+        div#menuu{
+            border: 3px dotted rgb(107, 176, 107);
+        }
+        a#menu:link{
+            color: darkseagreen;
+        }
+        a#menu:visited{
+            color: rgb(45, 76, 45);
+        }
+        a#menu:hover{
+            color: rgb(107, 176, 107);
+        }
+        a#order-from:link{
+            color: darkseagreen;
+        }
+        a#order-from:visited{
+            color: rgb(45, 76, 45);
+        }
+        a#order-from:hover{
+            color: rgb(107, 176, 107);
+        }
+        div#order-from{
+            color: rgb(69, 121, 55);
+            font-family: trebuchet ms;
+        }
+        body {
+            margin: 2px; 
+            padding: 20px; 
+            border: 4px dotted rgb(107, 176, 107); 
+        }
+    </style>
+
+    <header>
+        <img id="header-img" src="https://i.pinimg.com/1200x/36/9e/3f/369e3f90e9d1f255222e023422256479.jpg"
+        width="1288px"
+        >
+        <center><p><b>⋆˚࿔___________________________________________________________________________________________________࿔˚⋆</b></p></center>
+        <h1><center><i>Il Gusto Resto</i></center></h1>
+        <center><p><b>⋆˚࿔___________________________________________________________________________________________________࿔˚⋆</b></p></center><br>
+        <center><nav><h4>
+            <a href="#menu" id="menu">Menu</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="#order-from" id="order-from">Order From</a>
+        </h4></nav></center><br>
+    </header>
+    <main>
+        <section>
+            <center><p>⋆___________________________________________________________________________________________________⋆</p></center>
+            <center><h1>Menu</h1></center>
+            <center><p>⋆___________________________________________________________________________________________________⋆</p></center><br><br>
+            <article>
+                <center>
+                    <div id="menuu">
+                    <h3>Spaghetti All'Assassina</h3>
+                    <img 
+                    src="https://www.foodandwine.com/thmb/0MebvULj22leOiPcrnrvN6iZ-RI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Spaghetti-all-Assassina-FT-RECIPE1222-c7797782052a496680bec49ecd2c202b.jpg"
+                    width="300px"
+                    height="200px"
+                    >
+                    <p>Spaghetti all'assassina (Italian for "assassin's spaghetti") is a spicy, pan-fried pasta dish from Bari, Italy, known for its unique method of cooking spaghetti directly in the sauce. This technique, called risottatura, is similar to cooking risotto and gives the pasta a distinct, caramelized, and crispy texture.</p><br>
+                    <p><i><b>Price: $4.50</b></i></p><br>
+                    </div>
+                    <br>
+                </center>
+            </article>
+            <article>
+                <center>
+                    <div id="menuu">
+                    <h3>Smoked Mushroom and Bacon Pizza</h3>
+                    <img
+                    src="https://www.fabbrissmallgoods.com.au/wp-content/uploads/2022/12/Bacon-Pizza.jpg"
+                    width="300px"
+                    height="200px"
+                    >
+                    <p>A smoked mushroom and bacon pizza is a savory dish with a rich flavor profile created by the pairing of earthy mushrooms and smoky bacon. Recipes for this gourmet pizza can use either a tomato or creamy white garlic sauce base and often feature additional ingredients like caramelized onions and specialty cheeses.</p>
+                    <p><i><b>Price: $5</b></i></p>
+                    </div>
+                    <br>
+                </center>
+            </article>
+            <article>
+                <center>
+                    <div id="menuu">
+                        <h3>Tiramisu</h3>
+                        <img
+                        src="https://theitalianbkr.com/wp-content/uploads/2021/03/Tiramisu-1080x1350-1-rotated.jpg"
+                        width="280px"
+                        height="210px"
+                        >
+                        <p>Tiramisu, from the Italian tiramisù, meaning "pick me up" or "cheer me up", is a classic Italian dessert with rich, creamy layers. It combines coffee-soaked ladyfingers (savoiardi) with a whipped mixture of eggs, sugar, and mascarpone cheese, and is topped with cocoa powder.</p>
+                        <p><i><b>Price: $3.5</b></i></p>
+                    </div>
+                </center>
+            </article>
+        </section>
+        <br><br>
+        <section>
+            <center><p>⋆___________________________________________________________________________________________________⋆</p></center>
+            <center><h1 id="order-from">Place Your Order</h1></center>
+            <center><p>⋆___________________________________________________________________________________________________⋆</p></center><br><br>
+            <form>
+                <div id="order-from">
+                <label><h4>Spaghetti All'Assassina: <input type="number" min="0" max="20"></h4></label>
+                <ul>
+                    <li><label>Sides/Add-ons:</li>
+                        <input type="checkbox">Extra Chicken<br>
+                        <input type="checkbox">Extra Pasta Sauce<br>
+                        <input type="checkbox">Sprite<br>
+                        <input type="checkbox">Water<br>
+                    </label>
+                    <li>Special requests:<textarea rows="2" cols="15" placeholder="Anything else?"></textarea></li> <br>
+                </ul>
+                <label><h4>Smoked Bacon and Mushroom Pizza: <input type="number" min="0" max="20"></h4></label>
+                <ul>
+                    <li><label>Sides/Add-ons:</li>
+                        <input type="checkbox">Extra Bacon<br>
+                        <input type="checkbox">Extra Mushroom<br>
+                        <input type="checkbox">Oregano<br>
+                        <input type="checkbox">Chilli Flakes<br>
+                        <input type="checkbox">Sprite<br>
+                        <input type="checkbox">Water<br>
+                    </label>
+                    <li>Special requests:<textarea rows="2" cols="15" placeholder="Anything else?"></textarea></li> <br>
+                </ul>
+                <label><h4>Tiramisu: <input type="number" min="0" max="20"></h4></label>
+                <ul>
+                    <li><label>Sides/Add-ons:</li>
+                        <input type="checkbox">Extra Coffee Powder<br>
+                        <input type="checkbox">Extra Milk<br>
+                        <input type="checkbox">Sprite<br>
+                        <input type="checkbox">Water<br>
+                    </label>
+                    <li>Special requests:<textarea rows="2" cols="15" placeholder="Anything else?"></textarea></li> <br>
+                </ul>
+                </div>
+            </form>
+            <input type="submit" value="Go to Checkout">
+        </section>
+    </main>
+    <body bgcolor="#d1f0d5"></body>
+</html>
